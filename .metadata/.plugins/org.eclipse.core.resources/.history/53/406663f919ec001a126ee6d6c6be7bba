@@ -1,0 +1,40 @@
+
+/*4) WRITE A PROGRAM to print following Pattern 
+
+1 2 3 45 
+2 3 4 5 
+3 4 5 
+45 
+5 
+45 
+3 4 5 
+2 3 4 5 
+1 2 3 45 */
+
+package iterations;
+
+public class Pattern2 {
+
+	public static void main(String[] args) {
+		
+		for(int i=5;i>=1;i--)
+		{
+			for(int j=5;j>=i;j++)
+			{
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+		
+		for(int i=2;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+		
+	}
+	
+}
